@@ -1,0 +1,27 @@
+html{
+  background-color: teal;
+}
+.container-fluid{
+  background-color: teal;
+}
+
+
+input[type='text']{
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+input[type='text']:focus{
+  background-color: transparent;
+  color: rgb(0, 255, 51);
+}
+input[type='text']::placeholder{
+ 
+  color: rgb(238, 255, 0);
+
+}
+
+
+.btn{
+ color: rgb(166, 25, 25);
+}
